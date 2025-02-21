@@ -3,8 +3,9 @@
   "version": "0.0.0",
   "description": "\"A minimal, but complete ecommerce solution\"",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +15,9 @@
     "Ecommerce"
   ],
   "author": "Ebong Billy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pg": "^8.13.3",
+    "sequelize": "^6.37.5"
+  }
 }
